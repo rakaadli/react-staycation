@@ -138,5 +138,5 @@ BookingForm.propTypes = {
   startBooking: propTypes.func,
 };
 
-// export default withRouter(BookingForm);
-export default BookingForm;
+export default withRouter(BookingForm);
+// export default BookingForm;

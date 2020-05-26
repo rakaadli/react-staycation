@@ -9,7 +9,9 @@ import LandingPage from "pages/LandingPage";
 // import Example from "pages/Example";
 import DetailsPage from "pages/DetailsPage";
 import Checkout from "pages/Checkout";
-import Example from "pages/Example";
+// import Example from "pages/Example";
+// const cors = require("cors");
+// app.use(cors());
 
 function App() {
   return (

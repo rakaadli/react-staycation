@@ -30,18 +30,18 @@ export default function File(props) {
 
   return (
     <div className={["input-text mb-3", outerClassName].join(" ")}>
-      <div className="input-group">
+      <div className='input-group'>
         {prepend && (
-          <div className="input-group-prepend bg-gray-900">
-            <span className="input-group-text">{prepend}</span>
+          <div className='input-group-prepend bg-gray-900'>
+            <span className='input-group-text'>{prepend}</span>
           </div>
         )}
         <input
           accept={accept}
           ref={refInputFile}
           name={name}
-          className="d-none"
-          type="file"
+          className='d-none'
+          type='file'
           value={FileName}
           onChange={onChange}
         />
@@ -52,8 +52,8 @@ export default function File(props) {
           className={["form-control", inputClassName].join(" ")}
         />
         {append && (
-          <div className="input-group-append bg-gray-900">
-            <span className="input-group-text">{append}</span>
+          <div className='input-group-append bg-gray-900'>
+            <span className='input-group-text'>{append}</span>
           </div>
         )}
       </div>
