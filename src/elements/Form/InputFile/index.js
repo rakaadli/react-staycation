@@ -6,7 +6,7 @@ import "./index.scss";
 export default function File(props) {
   const [FileName, setFileName] = useState("");
   const {
-    value,
+    // value,
     placeholder,
     name,
     accept,
@@ -68,7 +68,7 @@ File.defaultProps = {
 File.propTypes = {
   name: propTypes.string.isRequired,
   accept: propTypes.string.isRequired,
-  value: propTypes.string.isRequired,
+  // value: propTypes.string.isRequired,
   onChange: propTypes.func.isRequired,
   prepend: propTypes.oneOfType([propTypes.number, propTypes.string]),
   append: propTypes.oneOfType([propTypes.number, propTypes.string]),
